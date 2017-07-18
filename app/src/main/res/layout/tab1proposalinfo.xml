@@ -1,0 +1,189 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contextClickable="false"
+        android:orientation="vertical"
+
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.pcban.omsap.OrgProposals.ProposalDetails"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tvDateSent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Date Sent"
+            android:textColor="#333333" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/contract" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_below="@+id/textView24"
+            android:layout_marginLeft="20dp"
+            android:text="Title Proposal"
+            android:textColor="#333333"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvTitleProposal"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:foregroundGravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textColor="#333333"
+            android:textSize="24sp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@drawable/target" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="6dp"
+                android:text="General Objective"
+                android:textColor="#333333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/tvGenObjective"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:text="TextView"
+            android:textColor="#333333"
+            android:layout_below="@+id/textView12"
+            android:layout_alignLeft="@+id/textView12"
+            android:layout_alignStart="@+id/textView12" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="13dp"
+                android:lineSpacingExtra="24sp"
+                android:text="Specific Objective"
+                android:textColor="#333333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView5"
+                android:layout_toEndOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/tvSpecObjective"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:text="TextView"
+            android:textColor="#333333"
+            android:layout_below="@+id/textView18"
+            android:layout_alignLeft="@+id/textView18"
+            android:layout_alignStart="@+id/textView18" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/textView18"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@drawable/search" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="13dp"
+                android:text="Proposed Budget"
+                android:textColor="#333333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/tvProposedBudget"
+                android:layout_alignStart="@+id/tvProposedBudget" />
+
+            <TextView
+                android:id="@+id/tvProposedBudget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="TextView"
+                android:textColor="#333333"
+                android:layout_below="@+id/textView21"
+                android:layout_alignLeft="@+id/imageView6"
+                android:layout_alignStart="@+id/imageView6"
+                android:layout_marginLeft="60dp"
+                android:layout_marginStart="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@drawable/coin" />
+        </RelativeLayout>
+    </LinearLayout>

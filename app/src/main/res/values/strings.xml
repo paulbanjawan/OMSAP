@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">OMSAP</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <!--for the navigation drawer-->
+    <string-array name="menu_array">
+        <item>Profile</item>
+        <item>My Proposals</item>
+        <item>Reservations</item>
+    </string-array>
+    <string name="title_activity_main2">OMSAP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_proposal">Send Proposal</string>
+    <string name="ipAddress">www.omsap.webstarterz.com</string>
+    <string name="title_activity_scrolling">Activity Proposals</string>
+    <string name="title_activity_view_profile">viewProfile</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_frag_proposal_info">fragProposalInfo</string>
+    <string name="title_activity_proposal_details">Proposal Details</string>
+    <string name="title_activity_profile_scrolling">ProfileScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="a">Available Stocks: </string>
+    <string name="b">Equipment Quantity: </string>
+
+</resources>

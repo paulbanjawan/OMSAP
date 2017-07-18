@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <Button
+        android:id="@+id/btnSelectFile"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/redhaze"
+        android:text="Select File"
+        android:textColor="@color/text"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:text="Steps in Sending Activity Proposal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Steps in Sending Activity Proposal" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="1. Select the word or pdf file of the proposal"
+        tools:text="1. Select the word or pdf file of the proposal"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:text="2. After selecting the file, you will be redirected to another page."
+        tools:text="2. After selecting the file, you will be redirected to another page." />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:text='3. Fill out the required forms and click the button "Send Proposal".'
+        tools:text='3. Fill out the required forms and click the button "Send Proposal".' />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:text="4. Wait for the approval of your proposal." />
+
+
+</RelativeLayout>

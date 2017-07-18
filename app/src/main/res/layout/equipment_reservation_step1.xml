@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="Equipment Reservation"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spProposals"
+        android:layout_alignStart="@+id/spProposals"
+        android:layout_below="@+id/textView28"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="42dp"
+        android:gravity="center_horizontal"
+        android:text="Select Activity"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spProposals"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/textView28"
+        android:layout_alignStart="@+id/textView28"
+        android:layout_below="@+id/textView29"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView29"
+        android:layout_alignStart="@+id/textView29"
+        android:layout_below="@+id/spProposals"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="11dp"
+        android:text="Start Date of the Activity"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etSelectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_below="@+id/textView16"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Select Date"
+        android:inputType="text"
+        android:editable="false"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etSelectDate"
+        android:layout_alignStart="@+id/etSelectDate"
+        android:layout_below="@+id/etSelectDate"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="End Date of the Activity"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_below="@+id/textView20"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="date"
+        android:editable="false"
+        />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etEndDate"
+        android:layout_alignStart="@+id/etEndDate"
+        android:layout_below="@+id/etEndDate"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Time Start of the Activity"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etTimeStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_below="@+id/textView19"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Time Start"
+        android:inputType="text"
+        android:editable="false"/>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etTimeStart"
+        android:layout_alignStart="@+id/etTimeStart"
+        android:layout_below="@+id/etTimeStart"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Time End of the Activity"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etTimeEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView23"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_below="@+id/textView23"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Time End"
+        android:inputType="text"
+        android:editable="false"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/redhaze"
+        android:text="Search"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

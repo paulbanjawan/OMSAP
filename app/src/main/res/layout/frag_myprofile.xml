@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.example.pcban.omsap.OrgProfile.fragmentMyProfile">
+
+    <!--<TextView
+        android:id="@+id/tvOrgName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvOrgAbbrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvOrgName"
+        android:layout_alignStart="@+id/tvOrgName"
+        android:layout_below="@+id/tvOrgName"
+        android:layout_marginTop="22dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvOrgMission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvOrgAbbrev"
+        android:layout_alignStart="@+id/tvOrgAbbrev"
+        android:layout_below="@+id/tvOrgAbbrev"
+        android:layout_marginTop="19dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvOrgVision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvOrgMission"
+        android:layout_alignStart="@+id/tvOrgMission"
+        android:layout_below="@+id/tvOrgMission"
+        android:layout_marginTop="21dp"
+        android:text="TextView" />-->
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3C3F52</color>
+    <color name="colorPrimaryDark">#2F353B</color>
+    <color name="colorAccent">#f36a5a</color>
+    <color name="background">#22313f</color>
+    <color name="yellowcasablanca">#F2784B</color>
+    <color name="text">#FFFFFF</color>
+    <color name="redflamingo">#EF4836</color>
+    <color name="redhaze">#f36a5a</color>
+    <color name="bluemadison">#36D7B7</color>
+    <color name="bluechambray">#2C3E50</color>
+    <color name="approved">#36D7B7</color>
+    <color name="withcomment">#FF5252</color>
+    <color name="review">#03A9F4</color>
+    <color name="nostatus">#757575</color>
+
+    <color name="pending">#F4D03F</color>
+    <color name="declined">#f36a5a</color>
+    <color name="cancelled">#525E64</color>
+</resources>

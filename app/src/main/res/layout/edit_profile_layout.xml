@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/etOrgName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Organization Name"
+        android:inputType="textPersonName"
+        app:bootstrapBrand="success"
+        app:bootstrapSize="md"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_above="@+id/etOrgAbbrev"
+        android:layout_toRightOf="@+id/ivOrgName"
+        android:layout_toEndOf="@+id/ivOrgName"
+        android:layout_marginBottom="10dp" />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/etOrgAbbrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Shortcut"
+        android:inputType="textPersonName"
+        app:bootstrapBrand="success"
+        app:bootstrapSize="md"
+        android:layout_above="@+id/etOrgMission"
+        android:layout_alignLeft="@+id/etOrgName"
+        android:layout_alignStart="@+id/etOrgName"
+        android:layout_marginBottom="16dp" />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/etOrgMission"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:hint="Mission"
+        app:bootstrapBrand="success"
+        app:bootstrapSize="md"
+        android:layout_above="@+id/etOrgVision"
+        android:layout_alignLeft="@+id/etOrgAbbrev"
+        android:layout_alignStart="@+id/etOrgAbbrev"
+        android:layout_marginBottom="18dp"
+        android:inputType="textMultiLine"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/etOrgVision"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:hint="Vision"
+        app:bootstrapBrand="success"
+        app:bootstrapSize="md"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/btnEditProfile"
+        android:layout_alignLeft="@+id/etOrgMission"
+        android:layout_alignStart="@+id/etOrgMission"
+        android:inputType="textMultiLine"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnEditProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:hint="Organization Name"
+        android:text="Edit Profile"
+
+        app:bootstrapBrand="success"
+
+        app:bootstrapSize="md"
+        app:buttonMode="regular"
+        app:showOutline="false" />
+
+    <ImageView
+        android:id="@+id/ivOrgName"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        app:srcCompat="@drawable/team"
+        android:layout_alignTop="@+id/etOrgName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/ivOrgMission"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/flag"
+        android:layout_alignTop="@+id/etOrgMission"
+        android:layout_alignLeft="@+id/ivOrgName"
+        android:layout_alignStart="@+id/ivOrgName" />
+
+    <ImageView
+        android:id="@+id/ivOrgVision"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/ivOrgMission"
+        android:layout_alignStart="@+id/ivOrgMission"
+        android:layout_below="@+id/etOrgMission"
+        app:srcCompat="@drawable/glasses" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="Edit Profile"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:layout_above="@+id/ivOrgName"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/ivEdit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/edit" />
+
+</RelativeLayout>

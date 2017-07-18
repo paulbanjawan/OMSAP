@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.pcban.omsap.LoginActivity"
+    android:background="@color/background">
+
+
+    <EditText
+        android:id="@+id/etUname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        app:backgroundTint="@color/text"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etUname"
+        android:layout_alignStart="@+id/etUname"
+        android:layout_below="@+id/etUname"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        app:backgroundTint="@color/text" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnLogin"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:background="@color/background"
+        android:text="@string/login"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        app:bootstrapBrand="danger"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="44dp"
+        android:contextClickable="false"
+        app:srcCompat="@drawable/logo_white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pcban.omsap.ProfileScrollingActivity"
+    tools:showIn="@layout/activity_profile_scrolling">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="500dp">
+
+
+        <TextView
+            android:id="@+id/tvOrgName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/tvOrgAbbrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvOrgName"
+            android:layout_marginTop="76dp"
+            android:text="TextView"
+            android:visibility="gone" />
+
+    <!--
+
+        -->
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Organization Name"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/ivOrgName2"
+            android:layout_toRightOf="@+id/ivOrgMission2"
+            android:layout_toEndOf="@+id/ivOrgMission2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+<!--
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:layout_below="@+id/tvOrgName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp" />
+
+
+
+
+-->
+        <TextView
+            android:id="@+id/tvOrgVision"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="textvew"
+            android:layout_below="@+id/textView17"
+            android:layout_alignLeft="@+id/textView17"
+            android:layout_alignStart="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvOrgMission"
+            android:layout_alignStart="@+id/tvOrgMission"
+            android:layout_below="@+id/tvOrgMission"
+            android:layout_marginTop="10dp"
+            android:text="Vision"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/ivOrgName2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/team"
+            android:layout_marginTop="67dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tvOrgAbbrev"
+            android:layout_toEndOf="@+id/tvOrgAbbrev" />
+
+        <ImageView
+            android:id="@+id/ivOrgMission2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            app:srcCompat="@mipmap/flag"
+            android:layout_below="@+id/ivOrgName2"
+            android:layout_alignLeft="@+id/ivOrgName2"
+            android:layout_alignStart="@+id/ivOrgName2" />
+
+        <TextView
+            android:id="@+id/tvOrgMission"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mission"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/ivOrgMission2"
+            android:layout_alignLeft="@+id/tvOrgName"
+            android:layout_alignStart="@+id/tvOrgName" />
+
+        <ImageView
+            android:id="@+id/ivOrgVision2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/glasses"
+            android:layout_alignTop="@+id/textView17"
+            android:layout_alignLeft="@+id/ivOrgMission2"
+            android:layout_alignStart="@+id/ivOrgMission2" />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

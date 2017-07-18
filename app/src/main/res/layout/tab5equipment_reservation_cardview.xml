@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvEquip"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="7dp"
+    android:background="@color/background"
+    android:padding="10dp"
+    card_view:cardBackgroundColor="@color/background"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="7dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvEquipmentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/tvRsvStatus"
+            android:layout_toRightOf="@+id/tvRsvStatus"
+            android:text="TextView"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvEquipmentName"
+            android:layout_alignStart="@+id/tvEquipmentName"
+            android:layout_below="@+id/tvEquipmentName"
+            android:text="Date:"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tvDate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:text="2017-05-05"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/tvEquipmentName"
+            android:layout_toRightOf="@+id/textView31"
+            android:layout_toEndOf="@+id/textView31" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvRsvStatus"
+            android:layout_alignBottom="@+id/tvRsvStatus"
+            android:layout_alignLeft="@+id/textView31"
+            android:layout_alignStart="@+id/textView31"
+            android:text="Time:"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView33"
+            android:layout_alignBottom="@+id/textView33"
+            android:layout_alignLeft="@+id/tvDate2"
+            android:layout_alignStart="@+id/tvDate2"
+            android:text="03:05:00 - 05:00:00"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivStatus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            card_view:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvRsvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ivStatus"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="5dp"
+            android:text="Pending"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView31"
+            android:layout_alignStart="@+id/textView31"
+            android:layout_alignTop="@+id/tvRsvStatus"
+            android:text="Qty:"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tvQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvDate2"
+            android:layout_alignStart="@+id/tvDate2"
+            android:layout_alignTop="@+id/textView35"
+            android:text="4"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

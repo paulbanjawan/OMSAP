@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bgprof">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/scrollView"
+            android:layout_toRightOf="@+id/bgprof"
+            android:layout_toEndOf="@+id/bgprof">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Name"
+                android:id="@+id/etNamee"
+                android:textColor="#000000"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="place"
+                android:id="@+id/etPlace"
+                android:layout_below="@+id/etNamee"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Citizenship"
+                android:id="@+id/etCitizenship"
+                android:layout_below="@+id/textView49"
+                android:layout_alignLeft="@+id/textView49"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Religion"
+                android:id="@+id/etRel"
+                android:layout_below="@+id/etCitizenship"
+                android:layout_alignLeft="@+id/etCitizenship"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Educational Background"
+                android:id="@+id/textView46"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/etEmail"
+                android:layout_toLeftOf="@+id/etPlace"
+                android:layout_toStartOf="@+id/etPlace"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#00695C"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="____________________________________________________"
+                android:id="@+id/textView13"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="1dp"
+                android:textColor="#B0BEC5" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="College"
+                android:id="@+id/etCollege"
+                android:layout_below="@+id/textView46"
+                android:layout_alignLeft="@+id/textView46"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Degree Earned"
+                android:id="@+id/etDe"
+                android:layout_below="@+id/etCollege"
+                android:layout_alignLeft="@+id/etCollege"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Program"
+                android:id="@+id/etProg"
+                android:layout_below="@+id/etDe"
+                android:layout_alignLeft="@+id/etDe"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Year Graduated"
+                android:id="@+id/etYearGrad"
+                android:layout_below="@+id/etProg"
+                android:layout_alignLeft="@+id/etProg"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Contact Information"
+                android:id="@+id/textView14"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/etEmail"
+                android:layout_toLeftOf="@+id/etPlace"
+                android:layout_toStartOf="@+id/etPlace"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#00695C"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="____________________________________________________"
+                android:id="@+id/textView25"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="1dp"
+                android:textColor="#B0BEC5" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Contact Number"
+                android:id="@+id/etCnum"
+                android:layout_below="@+id/textView50"
+                android:layout_alignLeft="@+id/textView50"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Email"
+                android:id="@+id/etEmail"
+                android:layout_below="@+id/etCnum"
+                android:layout_alignLeft="@+id/etCnum"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Skills"
+                android:id="@+id/textView26"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/etEmail"
+                android:layout_toLeftOf="@+id/etPlace"
+                android:layout_toStartOf="@+id/etPlace"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#00695C"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="____________________________________________________"
+                android:id="@+id/textView27"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="1dp"
+                android:textColor="#B0BEC5" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Skills here"
+                android:id="@+id/etSkills"
+                android:textColor="#000000"
+                android:layout_below="@+id/textView48"
+                android:layout_alignLeft="@+id/textView48"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:id="@+id/bgprof"
+        android:background="@color/redhaze"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|top"
+        android:visibility="visible" />
+
+    <com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image"
+        android:src="@drawable/team"
+        app:hasBorder="false"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible" />
+
+</RelativeLayout>
